@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0" version="24.7.15">
   <diagram name="第 1 页" id="oXmYGSSr4hYT4QbIqK7O">
-    <mxGraphModel dx="4279" dy="1328" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5154" dy="1770" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -102,7 +102,7 @@
           <mxGeometry x="-1447" y="640" width="1290" height="510" as="geometry" />
         </mxCell>
         <mxCell id="pcKXWr7JfEEh_f0UGHfL-28" value="&lt;div&gt;[displayed message is&amp;nbsp; &quot;unlocked&quot; AND temperature &amp;lt;= 90]&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-1382" y="640" width="192" height="40" as="geometry" />
+          <mxGeometry x="-1382" y="640" width="272" height="40" as="geometry" />
         </mxCell>
         <mxCell id="pcKXWr7JfEEh_f0UGHfL-29" value="strict" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" parent="1" vertex="1">
           <mxGeometry x="-1467" y="300" width="1617" height="1160" as="geometry" />
@@ -526,8 +526,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="TA9_eOSkAuxfFbQeDWFU-15" value="[NaN]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1640" y="320" width="43" height="30" as="geometry" />
+        <mxCell id="TA9_eOSkAuxfFbQeDWFU-15" value="[temperature &amp;lt;= 90 AND capacity &amp;lt;= 90]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1640" y="320" width="100" height="110" as="geometry" />
         </mxCell>
         <mxCell id="TA9_eOSkAuxfFbQeDWFU-41" value="display.append(nearest)" style="html=1;verticalAlign=bottom;endArrow=open;curved=0;rounded=0;endFill=0;" edge="1" parent="1" source="pcKXWr7JfEEh_f0UGHfL-8" target="pcKXWr7JfEEh_f0UGHfL-11">
           <mxGeometry width="80" relative="1" as="geometry">

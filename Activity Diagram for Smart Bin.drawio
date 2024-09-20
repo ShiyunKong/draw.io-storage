@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0" version="24.7.15">
   <diagram name="第 1 页" id="irDleK8PVXlx6nOFczS4">
-    <mxGraphModel dx="1195" dy="622" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="683" dy="355" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -104,7 +104,7 @@
             <mxPoint x="430" y="570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ilAViFpUk6oEtvWmWybY-32" value="60 seconds" style="html=1;shape=mxgraph.sysml.timeEvent;strokeWidth=2;verticalLabelPosition=bottom;verticalAlignment=top;fontFamily=Times New Roman;" vertex="1" parent="1">
+        <mxCell id="ilAViFpUk6oEtvWmWybY-32" value="30 seconds" style="html=1;shape=mxgraph.sysml.timeEvent;strokeWidth=2;verticalLabelPosition=bottom;verticalAlignment=top;fontFamily=Times New Roman;" vertex="1" parent="1">
           <mxGeometry x="420" y="690" width="35" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ilAViFpUk6oEtvWmWybY-33" value="Opens the outerdoor" style="html=1;shape=mxgraph.sysml.accEvent;strokeWidth=2;whiteSpace=wrap;align=center;fontFamily=Times New Roman;" vertex="1" parent="1">
@@ -157,12 +157,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ilAViFpUk6oEtvWmWybY-50" value="&lt;font face=&quot;Times New Roman&quot;&gt;180 seconds&lt;/font&gt;" style="html=1;shape=mxgraph.sysml.timeEvent;strokeWidth=2;verticalLabelPosition=bottom;verticalAlignment=top;" vertex="1" parent="1">
-          <mxGeometry x="560" y="210" width="35" height="40" as="geometry" />
+          <mxGeometry x="1010" y="220" width="35" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ilAViFpUk6oEtvWmWybY-51" value="" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;edgeStyle=isometricEdgeStyle;elbow=vertical;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;fontFamily=Times New Roman;" edge="1" parent="1" source="ilAViFpUk6oEtvWmWybY-50" target="ilAViFpUk6oEtvWmWybY-53">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="458" y="380" as="sourcePoint" />
-            <mxPoint x="700" y="330" as="targetPoint" />
+            <mxPoint x="908" y="390" as="sourcePoint" />
+            <mxPoint x="1150" y="340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ilAViFpUk6oEtvWmWybY-52" value="deposite timeout" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Times New Roman;" vertex="1" connectable="0" parent="ilAViFpUk6oEtvWmWybY-51">
@@ -171,15 +171,56 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ilAViFpUk6oEtvWmWybY-53" value="&lt;font face=&quot;Times New Roman&quot;&gt;Notify user that the time for depositing is ended&lt;/font&gt;" style="shape=rect;html=1;rounded=1;whiteSpace=wrap;align=center;" vertex="1" parent="1">
-          <mxGeometry x="730" y="200" width="160" height="80" as="geometry" />
+          <mxGeometry x="1180" y="210" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ilAViFpUk6oEtvWmWybY-54" value="" style="html=1;shape=mxgraph.sysml.flowFinal;strokeWidth=2;verticalLabelPosition=bottom;verticalAlignment=top;" vertex="1" parent="1">
-          <mxGeometry x="930" y="220" width="40" height="40" as="geometry" />
+          <mxGeometry x="1380" y="230" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ilAViFpUk6oEtvWmWybY-55" value="" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Times New Roman;" edge="1" parent="1" source="ilAViFpUk6oEtvWmWybY-53" target="ilAViFpUk6oEtvWmWybY-54">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="820" y="370" as="sourcePoint" />
-            <mxPoint x="860" y="370" as="targetPoint" />
+            <mxPoint x="1270" y="380" as="sourcePoint" />
+            <mxPoint x="1310" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ilAViFpUk6oEtvWmWybY-58" value="" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;edgeStyle=isometricEdgeStyle;elbow=vertical;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;fontFamily=Times New Roman;" edge="1" parent="1" source="ilAViFpUk6oEtvWmWybY-32" target="ilAViFpUk6oEtvWmWybY-60">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="605" y="260" as="sourcePoint" />
+            <mxPoint x="740" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ilAViFpUk6oEtvWmWybY-59" value="open door timeout" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Times New Roman;" vertex="1" connectable="0" parent="ilAViFpUk6oEtvWmWybY-58">
+          <mxGeometry x="-0.1079" y="-1" relative="1" as="geometry">
+            <mxPoint x="-1" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ilAViFpUk6oEtvWmWybY-60" value="Notify user that they did not open the door in time" style="shape=rect;html=1;rounded=1;whiteSpace=wrap;align=center;" vertex="1" parent="1">
+          <mxGeometry x="570" y="680" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ilAViFpUk6oEtvWmWybY-63" value="" style="html=1;shape=mxgraph.sysml.flowFinal;strokeWidth=2;verticalLabelPosition=bottom;verticalAlignment=top;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="770" y="700" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ilAViFpUk6oEtvWmWybY-64" value="" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Times New Roman;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" target="ilAViFpUk6oEtvWmWybY-63" source="ilAViFpUk6oEtvWmWybY-60">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="740" y="720" as="sourcePoint" />
+            <mxPoint x="220" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ilAViFpUk6oEtvWmWybY-65" value="" style="shape=rhombus;html=1;verticalLabelPosition=bottom;verticalAlignment=top;" vertex="1" parent="1">
+          <mxGeometry x="630" y="230" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ilAViFpUk6oEtvWmWybY-66" value="" style="html=1;elbow=horizontal;align=right;verticalAlign=bottom;endArrow=none;rounded=0;labelBackgroundColor=none;startArrow=open;startSize=12;entryX=1.016;entryY=0.337;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" source="ilAViFpUk6oEtvWmWybY-65" parent="1" target="ilAViFpUk6oEtvWmWybY-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ilAViFpUk6oEtvWmWybY-67" value="[guard]" style="edgeStyle=elbowEdgeStyle;html=1;elbow=vertical;verticalAlign=bottom;endArrow=open;rounded=0;labelBackgroundColor=none;endSize=12;" edge="1" source="ilAViFpUk6oEtvWmWybY-65" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="750" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ilAViFpUk6oEtvWmWybY-68" value="[else]" style="edgeStyle=elbowEdgeStyle;html=1;elbow=vertical;verticalAlign=bottom;endArrow=open;rounded=0;labelBackgroundColor=none;endSize=12;" edge="1" source="ilAViFpUk6oEtvWmWybY-65" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>

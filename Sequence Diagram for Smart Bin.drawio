@@ -517,7 +517,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="TA9_eOSkAuxfFbQeDWFU-30" value="display.refresh(&quot;avaliable&quot;, &quot;unavaliable&quot;)" style="html=1;verticalAlign=bottom;endArrow=open;curved=0;rounded=0;endFill=0;" parent="1" source="pcKXWr7JfEEh_f0UGHfL-8" target="pcKXWr7JfEEh_f0UGHfL-11" edge="1">
+        <mxCell id="TA9_eOSkAuxfFbQeDWFU-30" value="display.update(&quot;avaliable&quot;, &quot;unavaliable&quot;)" style="html=1;verticalAlign=bottom;endArrow=open;curved=0;rounded=0;endFill=0;" parent="1" source="pcKXWr7JfEEh_f0UGHfL-8" target="pcKXWr7JfEEh_f0UGHfL-11" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="-1030" y="1870" as="sourcePoint" />
             <mxPoint x="-689" y="1870" as="targetPoint" />

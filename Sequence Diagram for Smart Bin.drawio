@@ -16,7 +16,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="pcKXWr7JfEEh_f0UGHfL-9" value="search(registration)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" source="pcKXWr7JfEEh_f0UGHfL-8" target="pcKXWr7JfEEh_f0UGHfL-20" edge="1">
+        <mxCell id="pcKXWr7JfEEh_f0UGHfL-9" value="is_valid(registration)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" source="pcKXWr7JfEEh_f0UGHfL-8" target="pcKXWr7JfEEh_f0UGHfL-20" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="-1017" y="350" as="sourcePoint" />
             <mxPoint x="-877" y="350" as="targetPoint" />
@@ -62,7 +62,7 @@
         <mxCell id="pcKXWr7JfEEh_f0UGHfL-20" value=":Citizen Database" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
           <mxGeometry x="-907" y="220" width="100" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="pcKXWr7JfEEh_f0UGHfL-21" value="nfc_input(card)" style="html=1;verticalAlign=bottom;startArrow=none;startFill=0;endArrow=block;startSize=8;curved=0;rounded=0;endFill=1;" parent="1" source="pcKXWr7JfEEh_f0UGHfL-4" target="pcKXWr7JfEEh_f0UGHfL-8" edge="1">
+        <mxCell id="pcKXWr7JfEEh_f0UGHfL-21" value="read_card(card)" style="html=1;verticalAlign=bottom;startArrow=none;startFill=0;endArrow=block;startSize=8;curved=0;rounded=0;endFill=1;" parent="1" source="pcKXWr7JfEEh_f0UGHfL-4" target="pcKXWr7JfEEh_f0UGHfL-8" edge="1">
           <mxGeometry width="60" relative="1" as="geometry">
             <mxPoint x="-1147" y="340" as="sourcePoint" />
             <mxPoint x="-1127" y="340" as="targetPoint" />
@@ -245,7 +245,7 @@
         <mxCell id="pcKXWr7JfEEh_f0UGHfL-55" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="-1237" y="220" width="100" height="970" as="geometry" />
         </mxCell>
-        <mxCell id="pcKXWr7JfEEh_f0UGHfL-4" value="NFC reader :Sensor" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="pcKXWr7JfEEh_f0UGHfL-55" vertex="1">
+        <mxCell id="pcKXWr7JfEEh_f0UGHfL-4" value="Card reader :Sensor" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="pcKXWr7JfEEh_f0UGHfL-55" vertex="1">
           <mxGeometry width="100" height="959.4565217391306" as="geometry" />
         </mxCell>
         <mxCell id="pcKXWr7JfEEh_f0UGHfL-54" value="" style="shape=umlDestroy;whiteSpace=wrap;html=1;strokeWidth=3;targetShapes=umlLifeline;" parent="pcKXWr7JfEEh_f0UGHfL-55" vertex="1">

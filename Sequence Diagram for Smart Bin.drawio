@@ -16,7 +16,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="pcKXWr7JfEEh_f0UGHfL-9" value="is_valid(registration)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" source="pcKXWr7JfEEh_f0UGHfL-8" target="pcKXWr7JfEEh_f0UGHfL-20" edge="1">
+        <mxCell id="pcKXWr7JfEEh_f0UGHfL-9" value="is_valid(id_card)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" source="pcKXWr7JfEEh_f0UGHfL-8" target="pcKXWr7JfEEh_f0UGHfL-20" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="-1017" y="350" as="sourcePoint" />
             <mxPoint x="-877" y="350" as="targetPoint" />
@@ -71,7 +71,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="pcKXWr7JfEEh_f0UGHfL-23" value="(bool) valid = is_valid(registration)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;" parent="1" source="pcKXWr7JfEEh_f0UGHfL-20" target="pcKXWr7JfEEh_f0UGHfL-8" edge="1">
+        <mxCell id="pcKXWr7JfEEh_f0UGHfL-23" value="(bool) valid = is_valid(id_card)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;" parent="1" source="pcKXWr7JfEEh_f0UGHfL-20" target="pcKXWr7JfEEh_f0UGHfL-8" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="-887" y="440" as="sourcePoint" />
             <mxPoint x="-1007" y="440" as="targetPoint" />

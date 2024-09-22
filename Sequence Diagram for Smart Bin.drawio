@@ -197,7 +197,7 @@
             <mxPoint x="-467" y="523" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pcKXWr7JfEEh_f0UGHfL-46" value="display.append(&quot;charging fees = &quot;, weight * unit price).refresh(weight)" style="html=1;verticalAlign=bottom;endArrow=open;curved=0;rounded=0;endFill=0;" parent="1" source="pcKXWr7JfEEh_f0UGHfL-8" target="pcKXWr7JfEEh_f0UGHfL-11" edge="1">
+        <mxCell id="pcKXWr7JfEEh_f0UGHfL-46" value="display.append(&quot;charging fees = &quot;, weight * unit price).update(weight)" style="html=1;verticalAlign=bottom;endArrow=open;curved=0;rounded=0;endFill=0;" parent="1" source="pcKXWr7JfEEh_f0UGHfL-8" target="pcKXWr7JfEEh_f0UGHfL-11" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="-1007" y="1070" as="sourcePoint" />
             <mxPoint x="-707" y="1080" as="targetPoint" />

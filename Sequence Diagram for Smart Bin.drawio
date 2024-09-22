@@ -336,7 +336,7 @@
         <mxCell id="TA9_eOSkAuxfFbQeDWFU-31" value="" style="shape=umlDestroy;whiteSpace=wrap;html=1;strokeWidth=3;targetShapes=umlLifeline;" parent="pcKXWr7JfEEh_f0UGHfL-56" vertex="1">
           <mxGeometry x="995" y="1460" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="TA9_eOSkAuxfFbQeDWFU-32" value="remote client :Control software&amp;nbsp; " style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="pcKXWr7JfEEh_f0UGHfL-56" vertex="1">
+        <mxCell id="TA9_eOSkAuxfFbQeDWFU-32" value="remote client (app) :Control software&amp;nbsp; " style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="pcKXWr7JfEEh_f0UGHfL-56" vertex="1">
           <mxGeometry x="2047" y="-40" width="100" height="1620" as="geometry" />
         </mxCell>
         <mxCell id="TA9_eOSkAuxfFbQeDWFU-33" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" parent="pcKXWr7JfEEh_f0UGHfL-56" vertex="1">

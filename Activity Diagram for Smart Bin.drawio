@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0" version="24.7.16">
   <diagram name="第 1 页" id="irDleK8PVXlx6nOFczS4">
-    <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1195" dy="622" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -280,7 +280,7 @@
         <mxCell id="yifxT7un9gWGoPEk_y4y-24" value="" style="html=1;shape=mxgraph.sysml.flowFinal;strokeWidth=2;verticalLabelPosition=bottom;verticalAlignment=top;fontFamily=Helvetica;" parent="1" vertex="1">
           <mxGeometry x="480" y="220" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="yifxT7un9gWGoPEk_y4y-29" value="Compression plate :Door" style="html=1;shape=mxgraph.sysml.actPart;strokeWidth=3;verticalAlign=top;rotation=-90;whiteSpace=wrap;fontFamily=Helvetica;" parent="1" vertex="1">
+        <mxCell id="yifxT7un9gWGoPEk_y4y-29" value="RAM :Door" style="html=1;shape=mxgraph.sysml.actPart;strokeWidth=3;verticalAlign=top;rotation=-90;whiteSpace=wrap;fontFamily=Helvetica;" parent="1" vertex="1">
           <mxGeometry x="847.5" y="332.5" width="100" height="1495" as="geometry" />
         </mxCell>
         <mxCell id="yifxT7un9gWGoPEk_y4y-30" value="Compress trash" style="shape=mxgraph.sysml.objFlowR;html=1;rounded=1;whiteSpace=wrap;align=center;strokeWidth=2;direction=north;fontFamily=Helvetica;" parent="1" vertex="1">

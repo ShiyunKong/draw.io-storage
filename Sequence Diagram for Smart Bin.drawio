@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0" version="24.7.16">
   <diagram name="第 1 页" id="oXmYGSSr4hYT4QbIqK7O">
-    <mxGraphModel dx="3088" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3703" dy="1066" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -16,7 +16,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="pcKXWr7JfEEh_f0UGHfL-9" value="isValid(id_card)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" source="pcKXWr7JfEEh_f0UGHfL-8" target="pcKXWr7JfEEh_f0UGHfL-20" edge="1">
+        <mxCell id="pcKXWr7JfEEh_f0UGHfL-9" value="database.isValid(id_card)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" source="pcKXWr7JfEEh_f0UGHfL-8" target="pcKXWr7JfEEh_f0UGHfL-20" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="-1017" y="350" as="sourcePoint" />
             <mxPoint x="-877" y="350" as="targetPoint" />
@@ -49,7 +49,7 @@
         <mxCell id="pcKXWr7JfEEh_f0UGHfL-18" value="outerdoor :Door" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
           <mxGeometry x="-577" y="220" width="100" height="1520" as="geometry" />
         </mxCell>
-        <mxCell id="pcKXWr7JfEEh_f0UGHfL-19" value="unlock()" style="html=1;verticalAlign=bottom;startArrow=none;startFill=0;endArrow=open;startSize=8;curved=0;rounded=0;endFill=0;" parent="1" source="pcKXWr7JfEEh_f0UGHfL-8" target="pcKXWr7JfEEh_f0UGHfL-18" edge="1">
+        <mxCell id="pcKXWr7JfEEh_f0UGHfL-19" value="outerdoor.unlock()" style="html=1;verticalAlign=bottom;startArrow=none;startFill=0;endArrow=open;startSize=8;curved=0;rounded=0;endFill=0;" parent="1" source="pcKXWr7JfEEh_f0UGHfL-8" target="pcKXWr7JfEEh_f0UGHfL-18" edge="1">
           <mxGeometry width="60" relative="1" as="geometry">
             <mxPoint x="-997" y="510" as="sourcePoint" />
             <mxPoint x="-586.9499999999998" y="504.38" as="targetPoint" />
@@ -59,7 +59,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="pcKXWr7JfEEh_f0UGHfL-20" value=":Citizen Database" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+        <mxCell id="pcKXWr7JfEEh_f0UGHfL-20" value=":Database" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
           <mxGeometry x="-907" y="220" width="100" height="210" as="geometry" />
         </mxCell>
         <mxCell id="pcKXWr7JfEEh_f0UGHfL-21" value="readCard(card)" style="html=1;verticalAlign=bottom;startArrow=none;startFill=0;endArrow=block;startSize=8;curved=0;rounded=0;endFill=1;" parent="1" source="pcKXWr7JfEEh_f0UGHfL-4" target="pcKXWr7JfEEh_f0UGHfL-8" edge="1">
@@ -71,7 +71,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="pcKXWr7JfEEh_f0UGHfL-23" value="(bool) valid = isValid(id_card)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;" parent="1" source="pcKXWr7JfEEh_f0UGHfL-20" target="pcKXWr7JfEEh_f0UGHfL-8" edge="1">
+        <mxCell id="pcKXWr7JfEEh_f0UGHfL-23" value="(bool) valid = database.isValid(id_card)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;" parent="1" source="pcKXWr7JfEEh_f0UGHfL-20" target="pcKXWr7JfEEh_f0UGHfL-8" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="-887" y="440" as="sourcePoint" />
             <mxPoint x="-1007" y="440" as="targetPoint" />
@@ -115,19 +115,19 @@
             <mxPoint x="-977" y="660" as="sourcePoint" />
             <mxPoint x="-897" y="660" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-847" y="710" />
+              <mxPoint x="-850" y="730" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="pcKXWr7JfEEh_f0UGHfL-33" value="Integrated weight sensor :Sensor" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
           <mxGeometry x="-257" y="220" width="100" height="830" as="geometry" />
         </mxCell>
-        <mxCell id="pcKXWr7JfEEh_f0UGHfL-34" value="check()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" source="pcKXWr7JfEEh_f0UGHfL-8" target="pcKXWr7JfEEh_f0UGHfL-33" edge="1">
+        <mxCell id="pcKXWr7JfEEh_f0UGHfL-34" value="integratedWeightSensor.check()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" source="pcKXWr7JfEEh_f0UGHfL-8" target="pcKXWr7JfEEh_f0UGHfL-33" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="-807" y="670" as="sourcePoint" />
             <mxPoint x="-727" y="670" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-287" y="740" />
+              <mxPoint x="-287" y="750" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -137,7 +137,7 @@
         <mxCell id="pcKXWr7JfEEh_f0UGHfL-36" value="[outerdoor.isClosed() = True]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1437" y="710" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="pcKXWr7JfEEh_f0UGHfL-37" value="(float) weight = check()" style="html=1;verticalAlign=bottom;endArrow=open;curved=0;rounded=0;dashed=1;endFill=0;" parent="1" source="pcKXWr7JfEEh_f0UGHfL-33" target="pcKXWr7JfEEh_f0UGHfL-8" edge="1">
+        <mxCell id="pcKXWr7JfEEh_f0UGHfL-37" value="(float) weight = integratedWeightSensor.check()" style="html=1;verticalAlign=bottom;endArrow=open;curved=0;rounded=0;dashed=1;endFill=0;" parent="1" source="pcKXWr7JfEEh_f0UGHfL-33" target="pcKXWr7JfEEh_f0UGHfL-8" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="-517" y="720" as="sourcePoint" />
             <mxPoint x="-437" y="720" as="targetPoint" />
@@ -164,7 +164,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="pcKXWr7JfEEh_f0UGHfL-40" value="lock()" style="html=1;verticalAlign=bottom;endArrow=open;endSize=8;curved=0;rounded=0;" parent="1" source="pcKXWr7JfEEh_f0UGHfL-8" target="pcKXWr7JfEEh_f0UGHfL-18" edge="1">
+        <mxCell id="pcKXWr7JfEEh_f0UGHfL-40" value="outerdoor.lock()" style="html=1;verticalAlign=bottom;endArrow=open;endSize=8;curved=0;rounded=0;" parent="1" source="pcKXWr7JfEEh_f0UGHfL-8" target="pcKXWr7JfEEh_f0UGHfL-18" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-827" y="660" as="sourcePoint" />
             <mxPoint x="-740" y="920" as="targetPoint" />
@@ -173,7 +173,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="pcKXWr7JfEEh_f0UGHfL-42" value="check()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" edge="1">
+        <mxCell id="pcKXWr7JfEEh_f0UGHfL-42" value="integratedWeightSensor.check()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="-1027" y="960" as="sourcePoint" />
             <mxPoint x="-206" y="960" as="targetPoint" />
@@ -182,7 +182,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="pcKXWr7JfEEh_f0UGHfL-43" value="(float) weight = check()" style="html=1;verticalAlign=bottom;endArrow=open;curved=0;rounded=0;dashed=1;endFill=0;" parent="1" edge="1">
+        <mxCell id="pcKXWr7JfEEh_f0UGHfL-43" value="(float) weight = integratedWeightSensor.check()" style="html=1;verticalAlign=bottom;endArrow=open;curved=0;rounded=0;dashed=1;endFill=0;" parent="1" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="-206" y="1000" as="sourcePoint" />
             <mxPoint x="-1027" y="1000" as="targetPoint" />
@@ -269,7 +269,7 @@
         <mxCell id="TA9_eOSkAuxfFbQeDWFU-1" value="Integrated capacity sensor :Sensor" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="pcKXWr7JfEEh_f0UGHfL-56" vertex="1">
           <mxGeometry x="1597" y="-40" width="100" height="1150" as="geometry" />
         </mxCell>
-        <mxCell id="TA9_eOSkAuxfFbQeDWFU-4" value="check()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="pcKXWr7JfEEh_f0UGHfL-56" source="pcKXWr7JfEEh_f0UGHfL-8" target="TA9_eOSkAuxfFbQeDWFU-1" edge="1">
+        <mxCell id="TA9_eOSkAuxfFbQeDWFU-4" value="integratedCapacitySensor.check()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="pcKXWr7JfEEh_f0UGHfL-56" source="pcKXWr7JfEEh_f0UGHfL-8" target="TA9_eOSkAuxfFbQeDWFU-1" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="627" y="1210" as="sourcePoint" />
             <mxPoint x="707" y="1210" as="targetPoint" />
@@ -278,7 +278,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="TA9_eOSkAuxfFbQeDWFU-5" value="(float) capacity = check()" style="html=1;verticalAlign=bottom;endArrow=open;curved=0;rounded=0;dashed=1;endFill=0;" parent="pcKXWr7JfEEh_f0UGHfL-56" source="TA9_eOSkAuxfFbQeDWFU-1" target="pcKXWr7JfEEh_f0UGHfL-8" edge="1">
+        <mxCell id="TA9_eOSkAuxfFbQeDWFU-5" value="(float) capacity = integratedCapacitySensor.check()" style="html=1;verticalAlign=bottom;endArrow=open;curved=0;rounded=0;dashed=1;endFill=0;" parent="pcKXWr7JfEEh_f0UGHfL-56" source="TA9_eOSkAuxfFbQeDWFU-1" target="pcKXWr7JfEEh_f0UGHfL-8" edge="1">
           <mxGeometry x="-0.0006" width="80" relative="1" as="geometry">
             <mxPoint x="1420.5" y="1200" as="sourcePoint" />
             <mxPoint x="599.5" y="1200" as="targetPoint" />
@@ -315,7 +315,7 @@
         <mxCell id="TA9_eOSkAuxfFbQeDWFU-24" value="[temperature &amp;gt; 100]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pcKXWr7JfEEh_f0UGHfL-56" vertex="1">
           <mxGeometry x="434.5" y="1360" width="125" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="TA9_eOSkAuxfFbQeDWFU-25" value="notifyAdministrator(&quot;overheat_90&quot;)" style="html=1;verticalAlign=bottom;endArrow=open;curved=0;rounded=0;endFill=0;" parent="pcKXWr7JfEEh_f0UGHfL-56" source="pcKXWr7JfEEh_f0UGHfL-8" target="TA9_eOSkAuxfFbQeDWFU-11" edge="1">
+        <mxCell id="TA9_eOSkAuxfFbQeDWFU-25" value="notifyAdmin(&quot;overheat_90&quot;)" style="html=1;verticalAlign=bottom;endArrow=open;curved=0;rounded=0;endFill=0;" parent="pcKXWr7JfEEh_f0UGHfL-56" source="pcKXWr7JfEEh_f0UGHfL-8" target="TA9_eOSkAuxfFbQeDWFU-11" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="600" y="1350" as="sourcePoint" />
             <mxPoint x="680" y="1350" as="targetPoint" />
@@ -324,7 +324,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="TA9_eOSkAuxfFbQeDWFU-26" value="notifyAdministrator(&quot;ignite_100&quot;)" style="html=1;verticalAlign=bottom;endArrow=open;curved=0;rounded=0;endFill=0;" parent="pcKXWr7JfEEh_f0UGHfL-56" source="pcKXWr7JfEEh_f0UGHfL-8" target="TA9_eOSkAuxfFbQeDWFU-11" edge="1">
+        <mxCell id="TA9_eOSkAuxfFbQeDWFU-26" value="notifyAdmin(&quot;ignite_100&quot;)" style="html=1;verticalAlign=bottom;endArrow=open;curved=0;rounded=0;endFill=0;" parent="pcKXWr7JfEEh_f0UGHfL-56" source="pcKXWr7JfEEh_f0UGHfL-8" target="TA9_eOSkAuxfFbQeDWFU-11" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="519" y="1360" as="sourcePoint" />
             <mxPoint x="1957" y="1360" as="targetPoint" />
@@ -345,7 +345,7 @@
         <mxCell id="TA9_eOSkAuxfFbQeDWFU-34" value="[temperature &amp;lt;= 90 AND capacity &amp;lt;= 90]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pcKXWr7JfEEh_f0UGHfL-56" vertex="1">
           <mxGeometry x="137" y="1510" width="243" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="TA9_eOSkAuxfFbQeDWFU-35" value="notifyAdministrator(&quot;avaliable&quot;)" style="html=1;verticalAlign=bottom;endArrow=open;curved=0;rounded=0;endFill=0;" parent="pcKXWr7JfEEh_f0UGHfL-56" source="pcKXWr7JfEEh_f0UGHfL-8" target="TA9_eOSkAuxfFbQeDWFU-11" edge="1">
+        <mxCell id="TA9_eOSkAuxfFbQeDWFU-35" value="notifyAdmin(&quot;avaliable&quot;)" style="html=1;verticalAlign=bottom;endArrow=open;curved=0;rounded=0;endFill=0;" parent="pcKXWr7JfEEh_f0UGHfL-56" source="pcKXWr7JfEEh_f0UGHfL-8" target="TA9_eOSkAuxfFbQeDWFU-11" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="519" y="1350" as="sourcePoint" />
             <mxPoint x="1957" y="1350" as="targetPoint" />
@@ -354,7 +354,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="TA9_eOSkAuxfFbQeDWFU-36" value="notifyAdministrator(&quot;unavaliable&quot;)" style="html=1;verticalAlign=bottom;endArrow=open;curved=0;rounded=0;endFill=0;" parent="pcKXWr7JfEEh_f0UGHfL-56" source="pcKXWr7JfEEh_f0UGHfL-8" target="TA9_eOSkAuxfFbQeDWFU-11" edge="1">
+        <mxCell id="TA9_eOSkAuxfFbQeDWFU-36" value="notifyAdmin(&quot;unavaliable&quot;)" style="html=1;verticalAlign=bottom;endArrow=open;curved=0;rounded=0;endFill=0;" parent="pcKXWr7JfEEh_f0UGHfL-56" source="pcKXWr7JfEEh_f0UGHfL-8" target="TA9_eOSkAuxfFbQeDWFU-11" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="519" y="1550" as="sourcePoint" />
             <mxPoint x="1957" y="1550" as="targetPoint" />
@@ -381,7 +381,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="TA9_eOSkAuxfFbQeDWFU-40" value="(String) nearestBin = fetchNearest()" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="pcKXWr7JfEEh_f0UGHfL-56" source="TA9_eOSkAuxfFbQeDWFU-11" target="pcKXWr7JfEEh_f0UGHfL-8" edge="1">
+        <mxCell id="TA9_eOSkAuxfFbQeDWFU-40" value="(String) nearestBin = centralControlSoftware.fetchNearest()" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="pcKXWr7JfEEh_f0UGHfL-56" source="TA9_eOSkAuxfFbQeDWFU-11" target="pcKXWr7JfEEh_f0UGHfL-8" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1947" y="1630" as="sourcePoint" />
             <mxPoint x="1867" y="1630" as="targetPoint" />
@@ -420,7 +420,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="pcKXWr7JfEEh_f0UGHfL-62" value="open()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" source="pcKXWr7JfEEh_f0UGHfL-8" target="pcKXWr7JfEEh_f0UGHfL-31" edge="1">
+        <mxCell id="pcKXWr7JfEEh_f0UGHfL-62" value="trapdoor.open()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" source="pcKXWr7JfEEh_f0UGHfL-8" target="pcKXWr7JfEEh_f0UGHfL-31" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="-1017" y="1200" as="sourcePoint" />
             <mxPoint x="-937" y="1200" as="targetPoint" />
@@ -429,7 +429,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="pcKXWr7JfEEh_f0UGHfL-65" value="close()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" source="pcKXWr7JfEEh_f0UGHfL-8" target="pcKXWr7JfEEh_f0UGHfL-53" edge="1">
+        <mxCell id="pcKXWr7JfEEh_f0UGHfL-65" value="ram.close()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" source="pcKXWr7JfEEh_f0UGHfL-8" target="pcKXWr7JfEEh_f0UGHfL-53" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="-1018" y="1240" as="sourcePoint" />
             <mxPoint x="-358" y="1240" as="targetPoint" />
@@ -438,7 +438,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="pcKXWr7JfEEh_f0UGHfL-66" value="open()" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" source="pcKXWr7JfEEh_f0UGHfL-53" target="pcKXWr7JfEEh_f0UGHfL-8" edge="1">
+        <mxCell id="pcKXWr7JfEEh_f0UGHfL-66" value="ram.open()" style="html=1;verticalAlign=bottom;endArrow=none;dashed=1;endSize=8;curved=0;rounded=0;startArrow=open;startFill=0;endFill=0;" parent="1" source="pcKXWr7JfEEh_f0UGHfL-53" target="pcKXWr7JfEEh_f0UGHfL-8" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-87" y="1300" as="sourcePoint" />
             <mxPoint x="-167" y="1300" as="targetPoint" />
@@ -447,7 +447,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="pcKXWr7JfEEh_f0UGHfL-67" value="close()" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" source="pcKXWr7JfEEh_f0UGHfL-31" target="pcKXWr7JfEEh_f0UGHfL-8" edge="1">
+        <mxCell id="pcKXWr7JfEEh_f0UGHfL-67" value="trapdoor.close()" style="html=1;verticalAlign=bottom;endArrow=none;dashed=1;endSize=8;curved=0;rounded=0;startArrow=open;startFill=0;endFill=0;" parent="1" source="pcKXWr7JfEEh_f0UGHfL-31" target="pcKXWr7JfEEh_f0UGHfL-8" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-37" y="1300" as="sourcePoint" />
             <mxPoint x="-1018" y="1300" as="targetPoint" />
@@ -489,7 +489,7 @@
         <mxCell id="TA9_eOSkAuxfFbQeDWFU-47" value="" style="shape=umlDestroy;whiteSpace=wrap;html=1;strokeWidth=3;targetShapes=umlLifeline;" parent="TA9_eOSkAuxfFbQeDWFU-12" vertex="1">
           <mxGeometry x="35" y="1330" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="TA9_eOSkAuxfFbQeDWFU-16" value="check()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" source="pcKXWr7JfEEh_f0UGHfL-8" target="TA9_eOSkAuxfFbQeDWFU-12" edge="1">
+        <mxCell id="TA9_eOSkAuxfFbQeDWFU-16" value="integratedTemperatureSensor.check()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" source="pcKXWr7JfEEh_f0UGHfL-8" target="TA9_eOSkAuxfFbQeDWFU-12" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="-1260" y="1610" as="sourcePoint" />
             <mxPoint x="-122" y="1610" as="targetPoint" />
@@ -498,7 +498,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="TA9_eOSkAuxfFbQeDWFU-17" value="(float) temperature = check()" style="html=1;verticalAlign=bottom;endArrow=open;curved=0;rounded=0;dashed=1;endFill=0;" parent="1" source="TA9_eOSkAuxfFbQeDWFU-12" target="pcKXWr7JfEEh_f0UGHfL-8" edge="1">
+        <mxCell id="TA9_eOSkAuxfFbQeDWFU-17" value="(float) temperature = integratedTemperatureSensor.check()" style="html=1;verticalAlign=bottom;endArrow=open;curved=0;rounded=0;dashed=1;endFill=0;" parent="1" source="TA9_eOSkAuxfFbQeDWFU-12" target="pcKXWr7JfEEh_f0UGHfL-8" edge="1">
           <mxGeometry x="-0.0006" width="80" relative="1" as="geometry">
             <mxPoint x="-122" y="1650" as="sourcePoint" />
             <mxPoint x="-1030" y="1660" as="targetPoint" />
@@ -508,7 +508,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TA9_eOSkAuxfFbQeDWFU-29" value="lock()" style="html=1;verticalAlign=bottom;endArrow=open;curved=0;rounded=0;endFill=0;" parent="1" source="pcKXWr7JfEEh_f0UGHfL-8" target="pcKXWr7JfEEh_f0UGHfL-18" edge="1">
+        <mxCell id="TA9_eOSkAuxfFbQeDWFU-29" value="outerdoor.lock()" style="html=1;verticalAlign=bottom;endArrow=open;curved=0;rounded=0;endFill=0;" parent="1" source="pcKXWr7JfEEh_f0UGHfL-8" target="pcKXWr7JfEEh_f0UGHfL-18" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="-1030" y="1840" as="sourcePoint" />
             <mxPoint x="-520" y="1840" as="targetPoint" />
@@ -535,6 +535,15 @@
             <mxPoint x="-677" y="1730" as="targetPoint" />
             <Array as="points">
               <mxPoint x="-800" y="1930" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="udy5zBMSPadKMOYD6ADF-1" value="opens the outerdoor" style="html=1;verticalAlign=bottom;endArrow=open;curved=0;rounded=0;endFill=0;" edge="1" parent="1" source="pcKXWr7JfEEh_f0UGHfL-5" target="pcKXWr7JfEEh_f0UGHfL-18">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-1307" y="720" as="sourcePoint" />
+            <mxPoint x="-357" y="720" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-840" y="700" />
             </Array>
           </mxGeometry>
         </mxCell>

@@ -1,9 +1,54 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0" version="24.7.16">
   <diagram name="第 1 页" id="m4YYxoUZM-jtIpdEeWu2">
-    <mxGraphModel>
+    <mxGraphModel dx="1235" dy="625" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="XkTKvuh2GiiAi8Gufwkx-1" value="Wait for 0 from below" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="380" y="180" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XkTKvuh2GiiAi8Gufwkx-2" value="Wait for 1 from below" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="840" y="180" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XkTKvuh2GiiAi8Gufwkx-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="1" source="XkTKvuh2GiiAi8Gufwkx-1" target="XkTKvuh2GiiAi8Gufwkx-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="190" as="sourcePoint" />
+            <mxPoint x="490" y="140" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="448" y="110" />
+              <mxPoint x="832" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XkTKvuh2GiiAi8Gufwkx-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="1" source="XkTKvuh2GiiAi8Gufwkx-1" target="XkTKvuh2GiiAi8Gufwkx-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="458" y="202" as="sourcePoint" />
+            <mxPoint x="842" y="202" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="448" y="350" />
+              <mxPoint x="830" y="350" />
+              <mxPoint x="830" y="248" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XkTKvuh2GiiAi8Gufwkx-6" value="&lt;div&gt;rdt_rcv(rcvpkt) &amp;amp;&amp;amp; notcorrupt(rcvpkt) &amp;amp;&amp;amp; has_sequence0(rcvpkt)&lt;br&gt;&lt;/div&gt;&lt;div&gt;---------------------------------------------------------------------------&lt;/div&gt;&lt;div&gt;extract(rcvpkt, data)&lt;/div&gt;&lt;div&gt;deliver_data(data)&lt;/div&gt;&lt;div&gt;sndpkt = make_pkt(ACK, 0, checksum)&lt;/div&gt;&lt;div&gt;udt_send(sndpkt)&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="10" width="400" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="XkTKvuh2GiiAi8Gufwkx-7" value="" style="endArrow=open;dashed=1;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;endFill=0;" edge="1" parent="1" target="XkTKvuh2GiiAi8Gufwkx-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="130" as="sourcePoint" />
+            <mxPoint x="400" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XkTKvuh2GiiAi8Gufwkx-8" value="&lt;div&gt;rdt_rcv(rcvpkt) &amp;amp;&amp;amp; notcorrupt(rcvpkt) &amp;amp;&amp;amp; has_sequence1(rcvpkt)&lt;br&gt;&lt;/div&gt;&lt;div&gt;---------------------------------------------------------------------------&lt;/div&gt;&lt;div&gt;extract(rcvpkt, data)&lt;/div&gt;&lt;div&gt;deliver_data(data)&lt;/div&gt;&lt;div&gt;sndpkt = make_pkt(ACK, 1, checksum)&lt;/div&gt;&lt;div&gt;udt_send(sndpkt)&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="360" width="400" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="XkTKvuh2GiiAi8Gufwkx-9" value="&lt;div&gt;rdt_rcv(rcvpkt) &amp;amp;&amp;amp; [corrupt(rcvpkt) &amp;amp;&amp;amp; has_sequence0(rcvpkt)]&lt;br&gt;&lt;/div&gt;&lt;div&gt;---------------------------------------------------------------------------&lt;/div&gt;&lt;div&gt;sndpkt = make_pkt(ACK, 0, checksum)&lt;/div&gt;&lt;div&gt;udt_send(sndpkt)&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="890" y="180" width="400" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="XkTKvuh2GiiAi8Gufwkx-10" value="&lt;div&gt;rdt_rcv(rcvpkt) &amp;amp;&amp;amp; [corrupt(rcvpkt) &amp;amp;&amp;amp; has_sequence1(rcvpkt)]&lt;br&gt;&lt;/div&gt;&lt;div&gt;---------------------------------------------------------------------------&lt;/div&gt;&lt;div&gt;sndpkt = make_pkt(ACK, 1, checksum)&lt;/div&gt;&lt;div&gt;udt_send(sndpkt)&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="180" width="400" height="100" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

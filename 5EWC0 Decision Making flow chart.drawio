@@ -1,9 +1,89 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0" version="28.2.5">
   <diagram name="第 1 页" id="7ypVhHLRo4GlIE1HLL5i">
-    <mxGraphModel>
+    <mxGraphModel dx="1426" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="3gv2TJTsUJWHUp8PPC1P-1" value="Stress value" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="120" y="330" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3gv2TJTsUJWHUp8PPC1P-2" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3gv2TJTsUJWHUp8PPC1P-1" target="3gv2TJTsUJWHUp8PPC1P-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="370" as="sourcePoint" />
+            <mxPoint x="280" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3gv2TJTsUJWHUp8PPC1P-3" value="Compare to S_opt" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="250" y="330" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3gv2TJTsUJWHUp8PPC1P-4" value="Speculative S_opt" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="200" y="170" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3gv2TJTsUJWHUp8PPC1P-5" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3gv2TJTsUJWHUp8PPC1P-4" target="3gv2TJTsUJWHUp8PPC1P-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="270" as="sourcePoint" />
+            <mxPoint x="380" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3gv2TJTsUJWHUp8PPC1P-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3gv2TJTsUJWHUp8PPC1P-3" target="3gv2TJTsUJWHUp8PPC1P-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="330" as="sourcePoint" />
+            <mxPoint x="420" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3gv2TJTsUJWHUp8PPC1P-10" value="&amp;gt;S_opt" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3gv2TJTsUJWHUp8PPC1P-6">
+          <mxGeometry x="-0.09" y="-4" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3gv2TJTsUJWHUp8PPC1P-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3gv2TJTsUJWHUp8PPC1P-3" target="3gv2TJTsUJWHUp8PPC1P-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="450" as="sourcePoint" />
+            <mxPoint x="420" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3gv2TJTsUJWHUp8PPC1P-11" value="&amp;lt;S_opt" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3gv2TJTsUJWHUp8PPC1P-7">
+          <mxGeometry x="-0.0075" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3gv2TJTsUJWHUp8PPC1P-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3gv2TJTsUJWHUp8PPC1P-3" target="3gv2TJTsUJWHUp8PPC1P-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="390" as="sourcePoint" />
+            <mxPoint x="460" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3gv2TJTsUJWHUp8PPC1P-12" value="==S_opt" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3gv2TJTsUJWHUp8PPC1P-8">
+          <mxGeometry x="-0.0624" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3gv2TJTsUJWHUp8PPC1P-9" value="Rock softer" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="430" y="160" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3gv2TJTsUJWHUp8PPC1P-13" value="dont change" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="460" y="350" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3gv2TJTsUJWHUp8PPC1P-14" value="Rock harder" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="430" y="470" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3gv2TJTsUJWHUp8PPC1P-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3gv2TJTsUJWHUp8PPC1P-9" target="3gv2TJTsUJWHUp8PPC1P-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="260" as="sourcePoint" />
+            <mxPoint x="590" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3gv2TJTsUJWHUp8PPC1P-17" value="increases stress" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3gv2TJTsUJWHUp8PPC1P-15">
+          <mxGeometry x="-0.1911" y="-1" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3gv2TJTsUJWHUp8PPC1P-16" value="Rock harder" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="600" y="60" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3gv2TJTsUJWHUp8PPC1P-18" value="3 modes of changing, assume monotonic" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="40" width="210" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

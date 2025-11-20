@@ -81,7 +81,7 @@
             <mxPoint x="10" y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3gv2TJTsUJWHUp8PPC1P-16" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="Rock softer" vertex="1">
+        <mxCell id="3gv2TJTsUJWHUp8PPC1P-16" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="Rock harder" vertex="1">
           <mxGeometry height="80" width="80" x="600" y="60" as="geometry" />
         </mxCell>
         <mxCell id="3gv2TJTsUJWHUp8PPC1P-18" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="3 modes of changing, assume monotonic" vertex="1">
@@ -173,7 +173,7 @@
             <mxPoint x="17" y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ojfvggZdKhIk388R-KTs-20" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="Rock harder" vertex="1">
+        <mxCell id="ojfvggZdKhIk388R-KTs-20" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="Rock softer" vertex="1">
           <mxGeometry height="80" width="80" x="600" y="480" as="geometry" />
         </mxCell>
         <mxCell id="ojfvggZdKhIk388R-KTs-23" edge="1" parent="1" source="3gv2TJTsUJWHUp8PPC1P-14" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="ojfvggZdKhIk388R-KTs-20" value="">

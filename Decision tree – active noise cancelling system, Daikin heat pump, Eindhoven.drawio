@@ -121,6 +121,9 @@
             <mxPoint x="790" y="520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="0CjFfWFpwdDzviFfTq2v-30" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="NPV per 1,000-unit portfolio (€k), discounted at 5% real over 15 years" vertex="1">
+          <mxGeometry height="30" width="500" x="164" y="430" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
